@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+ background-color: lightblue;
+
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.link__bar{
+    height: 10vh;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+.title__box{
+width: 25% !important;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+
+}
+.title__bar{
+    width: 30%;
+    height: 100%;
+}
+.svg__header{
+width: 30px;
+height: 30px;
+}
+.svg__link{
+width: 20px;
+height: 20px;
+}
+.search__bar{
+width: 30%;
+height: 10vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.search__input{
+width: 40%;
+height: 5vh;
+border-radius: 30px;
+border: dotted 2px lightblue;
+}
+.search__input:focus{
+    transition: 1s;
+    width: 80%;
+    height: 5vh;
+outline: none;
+padding: 4px;
+}
+.search__input::placeholder{
+text-align: center;
+}
+.color__bar{
+width: 25%;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.color__blue{
+width: 7vh;
+height:7vh;
+background-color: lightblue;
+border-radius: 30px;
+box-shadow: 2px 2px  rgba(0, 0, 0, 0.2);
+}
+.color__red{
+    width: 7vh;
+    height:7vh;
+    background-color: pink ;
+    border-radius: 30px;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.4);
+}
+.color__green{
+    width: 7vh;
+    height:7vh;
+    background-color: rgb(73, 248, 132);
+    border-radius: 30px;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.4);
+}
+.color__yellow{
+    width: 7vh;
+    height:7vh;
+    background-color: rgb(228, 228, 184);
+    border-radius: 30px;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.4);
+}
+.color__black{
+    width: 7vh;
+    height:7vh;
+   background-color: black;
+    border-radius: 30px;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.4);
+}
+.color__white{
+    width: 7vh;
+    height:7vh;
+ background-color: #FAFAFA;
+    border-radius: 30px;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.4);
+}
+
+.text_dec{
+    text-decoration: none;
+    color: black;
+}
